@@ -30,7 +30,7 @@ These are my first steps with JavaScript. Accompany me from the beginning.
 
 ### How to use this Project
 
-Please use nodemon to watch my Project.
+Please use node or nodemon to watch my Project.
 
 ##### Developed with
 
