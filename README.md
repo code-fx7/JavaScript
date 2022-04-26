@@ -57,7 +57,6 @@ Linkedin: [Christoph Feliksiak](https://www.linkedin.com/in/christoph-feliksiak-
 ### Used Tools
 
 - [Visual Studio Code](https://code.visualstudio.com)
-- My teacher Hadi
 
 ---
 

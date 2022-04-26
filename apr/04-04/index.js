@@ -105,7 +105,13 @@
 // function 4arg
 
 // First solution
-// function
+// function tellFortune(numChild, namePartner, geoLocation, jobTitel) {
+// let result = "";
+
+// result = `You will be a ${jobTitel} in ${geoLocation}, and married to ${namePartner} with ${numChild} kids.`
+// return console.log(result);
+// }
+// tellFortune(3, "Marie", "Emden", "Web developer");
 
 // ------------------------
 
@@ -115,7 +121,16 @@
 // function
 
 // First solution
-// function
+// let charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+// function passwordGen() {
+//   let result = "";
+//   let passwortLänge = 12;
+//   for (let i = 0; i < passwortLänge; i++) {
+//   result += charList[Math.round(Math.random() * charList.length)]
+//   }
+//   return console.log(result);
+// }
+// passwordGen()
 
 // ------------------------
 
@@ -127,7 +142,7 @@
 // function
 
 // First solution
-// function
+function exValues(x, y)
 
 // ------------------------
 

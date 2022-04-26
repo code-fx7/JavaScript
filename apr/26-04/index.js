@@ -34,5 +34,7 @@ console.log(recipe.ingredients)
 //    ])
 // ➞ ["Jane", "Jack", "John"]
 
-
+function getNames(arr) {
+    return
+}
 //----------
