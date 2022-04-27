@@ -63,8 +63,8 @@ console.log(programming);
 
 const freeShipping = (obj) => {
   const valuesArr = Object.values(obj);
-  let sum = valuesArr.reduce((acc, cur) => acc + cur, 0);
-  return console.log(sum > 50);
+  const sum = valuesArr.reduce((acc, cur) => acc + cur);
+  return sum > 50;
 };
 
 freeShipping({ Sponge: 3.5, Soap: 5.99 });
@@ -114,7 +114,7 @@ for (const key in person) {
 function getObjectValues(obj) {
   console.log(Object.values(obj));
 }
-getObjectValues( {
+getObjectValues({
   choice1: "tea",
   choice2: "coffe",
   choice3: "milk",
@@ -139,11 +139,15 @@ personM = {
   job: "driver",
   age: 20,
   city: "Paris",
-}
+};
 
 person.print = function () {
-  console.log(`${this.firstName, this.lastName} is a ${this,age} year old ${this.city}`)
-}
+  console.log(
+    `${(this.firstName, this.lastName)} is a ${(this, age)} year old ${
+      this.city
+    }`
+  );
+};
 //----------
 
 // 1. Convert keys and values into an array. Create a function that converts an object into an array of keys and values.
@@ -156,14 +160,31 @@ person.print = function () {
 // Expected output:
 // [["A", 1], ["B", 2], ["C", 3]]
 
+const objectToArray = (obj) => Object.entries(obj);
+console.log(
+  objectToArray({
+    A: 1,
+    B: 2,
+    C: 3,
+  })
+);
+
 //----------
 
 // List Properties. Create a function that returns an array of properties of a javascript object.
 // Example
 // let student = {
-//   name: "Mike", 
-//   class: "4A" 
+//   name: "Mike",
+//   class: "4A"
 //   course: "English"
 // }
 // Expected output:
 // ["name", "class", "course"]
+
+const student = {
+  name: "Mike",
+  class: "4A",
+  course: "English",
+};
+const keysArr = (obj) => Object.keys(obj);
+console.log(keysArr(student));

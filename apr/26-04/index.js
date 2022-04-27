@@ -8,14 +8,14 @@
 // cumin
 // cocoa
 
-const recipe  = {
+const recipe = {
   title: "Mole",
   serves: 2,
-  ingredients: ["cinnamon", "cumin", "cocoa"]
+  ingredients: ["cinnamon", "cumin", "cocoa"],
 };
 
-console.log(recipe.title)
-console.log(recipe.ingredients)
+console.log(recipe.title);
+console.log(recipe.ingredients);
 //----------
 
 // The Reading List
@@ -34,7 +34,39 @@ console.log(recipe.ingredients)
 //    ])
 // ➞ ["Jane", "Jack", "John"]
 
-function getNames(arr) {
-    return
-}
+// function getNames(arr) {
+//     return
+// }
 //----------
+
+const countLetter = (str) => {
+  const arr = str.split("");
+  const result = arr.reduce((box, cur) => {
+
+// Op prof
+// box[cur] = box[cur] ? box[cur] +1 : 1;
+
+// Op2
+// box[cur] = box.hasOwnProperty(cur) ? box[cur] +1 : 1;
+
+// Op3
+if(box.hasOwnProperty(cur)) {
+    box[cur] +=1;
+} else {
+    box[cur] = 1;
+}
+return box;
+
+// Op4
+//     if (box[cur]) {
+//       box[cur] += 1;
+//     } else {
+//       box[cur] = 1;
+//     }
+    
+return box;
+  }, {});
+  return result;
+};
+
+console.log(countLetter("tree"));
