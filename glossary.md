@@ -1,14 +1,19 @@
 DRY = Don´t repeat yourself
 KISS = Keep it simple
 
--[] Array
+-"" String
+-[] Array (Ein Hotel in dem wir in jedes Zimmer reingehen)
 -() Funktion, Methode aufrufen
 -{} Object, Scope
--=
--== Vergleich
--=== Vergleich
+-= setzt eine Variable
+-== Vergleicht
+-=== Vergleichen von value und type
+-&& (and) alles muss übereinstimmen
+-|| (or) eine Übereinstimmung reicht
 
--++ = Inkrement-Operator
+-++ = Increment-Operator
+
+-console.log() = object Methode
 
 #Advance array methods
 
@@ -22,9 +27,17 @@ KISS = Keep it simple
 
 -forEach = Methode, Callback
 
+-some = prüft ob mindestens ein Element gleich ist
+
+-every = prüft ob alle Elemente gleich sind
+
 -accumulator (acc) Ist ein Container, bei Object , 0
 
+-Bool = true/false
+
 -currentValue (cur)
+
+-const = für meine konstante Variable
 
 -element (ele) = Ist für Array, verhält sich wie arr[i]
 
@@ -43,6 +56,8 @@ Funktioniert nur mit Array. Anwendung nur bei kompletten Arrays.
 -Infinite loop = endlos Schleife
 
 -join =
+
+-length = anzahl indexes in array, Länge des Strings
 
 -Methode =
 
@@ -70,3 +85,5 @@ console.log(i);
 -split = String zu Array
 
 -this =
+
+-var = variablen weren lokal genutzt, variablen werden gehoistet
