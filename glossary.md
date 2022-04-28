@@ -1,89 +1,93 @@
 DRY = Don´t repeat yourself
 KISS = Keep it simple
 
--"" String
--[] Array (Ein Hotel in dem wir in jedes Zimmer reingehen)
--() Funktion, Methode aufrufen
--{} Object, Scope
--= setzt eine Variable
--== Vergleicht
--=== Vergleichen von value und type
--&& (and) alles muss übereinstimmen
--|| (or) eine Übereinstimmung reicht
+- "" String
+- [] Array (Ein Hotel in dem wir in jedes Zimmer reingehen)
+- () Funktion, Methode aufrufen
+- {} Object, Scope
+- = setzt eine Variable
+- == Vergleicht
+- === Vergleichen von value und type
+- && (and) alles muss übereinstimmen
+- || (or) eine Übereinstimmung reicht
 
--++ = Increment-Operator
+- ++ = Increment-Operator
 
--console.log() = object Methode
+- console.log() = object Methode
 
-#Advance array methods
+---
 
--map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipolieren, benötigt ein Callback, gibt immer ein Array zurück
+####Advance array methods
 
--filter = sucht innerhalb eines Array, gibt ein Array zurück, benötigt ein Callback
+- map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipolieren, benötigt ein Callback, gibt immer ein Array zurück
 
--find = sucht innerhalb eines Array, gibt nur den ersten richtigen Wert zurück
+- filter = sucht innerhalb eines Array, gibt ein Array zurück, benötigt ein Callback
 
--findIndex =
+- find = sucht innerhalb eines Array, gibt nur den ersten richtigen Wert zurück
 
--forEach = Methode, Callback
+- findIndex =
 
--some = prüft ob mindestens ein Element gleich ist
+- forEach = Methode, Callback
 
--every = prüft ob alle Elemente gleich sind
+- some = prüft ob mindestens ein Element gleich ist
 
--accumulator (acc) Ist ein Container, bei Object , 0
+- every = prüft ob alle Elemente gleich sind
 
--Bool = true/false
+---
 
--currentValue (cur)
+- accumulator (acc) Ist ein Container, bei Object , 0
 
--const = für meine konstante Variable
+- Bool = true/false
 
--element (ele) = Ist für Array, verhält sich wie arr[i]
+- currentValue (cur)
 
--fill = nimmt ein Array und gibt es so zurück wie wir es verändert haben
+- const = für meine konstante Variable
 
--For = Schleife (loop)
+- element (ele) = Ist für Array, verhält sich wie arr[i]
 
--For in =
-Funktioniert nur mit Object
+- fill = nimmt ein Array und gibt es so zurück wie wir es verändert haben
 
--For of =
-Funktioniert nur mit Array. Anwendung nur bei kompletten Arrays.
+- For = Schleife (loop)
 
--in = für Object
+- For in =
+  Funktioniert nur mit Object
 
--Infinite loop = endlos Schleife
+- For of =
+  Funktioniert nur mit Array. Anwendung nur bei kompletten Arrays.
 
--join =
+- in = für Object
 
--length = anzahl indexes in array, Länge des Strings
+- Infinite loop = endlos Schleife
 
--Methode =
+- join =
 
--Object = Inhalt zwischen geschweiftern Klammern
+- length = anzahl indexes in array, Länge des Strings
 
--of = für Array
+- Methode =
 
--Property =
-Ist für Object
+- Object = Inhalt zwischen geschweiftern Klammern
 
--reduce = Funktioniert nur mit Array, nimmt ein großes Array und gibt ein value zurück, Kann 2 Parameter hat immer (acc, cur)
+- of = für Array
 
--return =
+- Property =
+  Ist für Object
 
--Schleife = for (let i = 0; i <=10; i++) {
-console.log(i);
-}
+- reduce = Funktioniert nur mit Array, nimmt ein großes Array und gibt ein value zurück, Kann 2 Parameter hat immer (acc, cur)
 
--some =
+- return =
 
--Scope {}
+- Schleife = for (let i = 0; i <=10; i++) {
+  console.log(i);
+  }
 
--sort =
+- some =
 
--split = String zu Array
+- Scope {}
 
--this =
+- sort =
 
--var = variablen weren lokal genutzt, variablen werden gehoistet
+- split = String zu Array
+
+- this =
+
+- var = variablen weren lokal genutzt, variablen werden gehoistet
