@@ -4,6 +4,23 @@ KISS = Keep it simple
 -[] Array
 -() Funktion, Methode aufrufen
 -{} Object, Scope
+-=
+-== Vergleich
+-=== Vergleich
+
+-++ = Inkrement-Operator
+
+#Advance array methods
+
+-map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipolieren, benötigt ein Callback, gibt immer ein Array zurück
+
+-filter = sucht innerhalb eines Array, gibt ein Array zurück, benötigt ein Callback
+
+-find = sucht innerhalb eines Array, gibt nur den ersten richtigen Wert zurück
+
+-findIndex =
+
+-forEach = Methode, Callback
 
 -accumulator (acc) Ist ein Container, bei Object , 0
 
@@ -13,13 +30,7 @@ KISS = Keep it simple
 
 -fill = nimmt ein Array und gibt es so zurück wie wir es verändert haben
 
--filter = benötigt ein Array, gibt ein Array zurück, benötigt ein Callback
-
--find =
-
 -For = Schleife (loop)
-
--forEach =
 
 -For in =
 Funktioniert nur mit Object
@@ -29,9 +40,9 @@ Funktioniert nur mit Array. Anwendung nur bei kompletten Arrays.
 
 -in = für Object
 
--join =
+-Infinite loop = endlos Schleife
 
--map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipolieren, benötigt ein Callback, gibt immer ein Array zurück
+-join =
 
 -Methode =
 
@@ -46,7 +57,9 @@ Ist für Object
 
 -return =
 
--Schleife = for (let i = 0; i < .length; i++)
+-Schleife = for (let i = 0; i <=10; i++) {
+console.log(i);
+}
 
 -some =
 
