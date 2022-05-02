@@ -1,23 +1,24 @@
-DRY = Don´t repeat yourself
-KISS = Keep it simple
+# DRY = Don´t repeat yourself<br>
 
-- "" String
-- [] Array (Ein Hotel in dem wir in jedes Zimmer reingehen)
-- () Funktion, Methode aufrufen
-- {} Object, Scope
-- = setzt eine Variable
+# KISS = Keep it simple
+
+- " " String
+- [ ] Array (Ein Hotel in dem wir in jedes Zimmer reingehen)
+- ( ) Funktion, Methode aufrufen
+- { } Object, Scope
+- = Zuweisung (Deklaration), setzt eine Variable
 - == Vergleicht
 - === Vergleichen von value und type
 - && (and) alles muss übereinstimmen
 - || (or) eine Übereinstimmung reicht
 
 - ++ = Increment-Operator
-
+- % = gibt den Rest einer Operation aus
 - console.log() = object Methode
 
 ---
 
-####Advance array methods
+#### Advance array methods
 
 - map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipolieren, benötigt ein Callback, gibt immer ein Array zurück
 
@@ -35,7 +36,7 @@ KISS = Keep it simple
 
 ---
 
-- accumulator (acc) Ist ein Container, bei Object , 0
+- accumulator (acc) Ist ein Container, bei Object , 0 (Der Wert der erhöt werden soll)
 
 - Bool = true/false
 

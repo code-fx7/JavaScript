@@ -22,21 +22,13 @@ console.log(typeof isOpen);
 let ageMark = "32";
 let ageJohn = 42;
 
-console.log(typeof ageMark);
-console.log(typeof ageJohn);
+console.log("ageMark:", typeof ageMark);
+console.log("ageJohn;", typeof ageJohn);
 
 // Is John older than Mark? Declare a variable with a boolean value and print the following to the console eg. "John is older than Mark: true"
 
-let jOlderM = true;
-console.log(
-  jOlderM
-    ? "John is older than Mark: true"
-    : "John is older than Mark: not true"
-);
-
 let johnOlder = ageJohn > ageMark;
-console.log(johnOlder);
-
+console.log("John is older than Mark:", johnOlder);
 // Declare a variable called "str". Do not assign a value. Print str's data type to the console.
 
 let str = "";
@@ -72,6 +64,13 @@ console.log(typeof typeOfGoals);
 
 // What is the type of Infinity? Comment your answer. Print the type of infinity to the console.
 
+console.log(typeof Infinity);
+
 // Declare a variable. Assign the variable the value of a number or a string. Use the isNaN() method to check whether the variable is a number or not. Print "variable is NOT a number: true/false".
 
+let someThing = "0";
+// isNaN is Not a Number
+console.log("variable is NOT a number:", isNaN(someThing));
+
 // Print the data type of isNaN(variable) to the console.
+console.log(typeof isNaN(someThing));
