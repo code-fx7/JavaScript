@@ -1,6 +1,6 @@
 ## JavaScript
 
-My first steps with JavaScript
+My JavaScript experiences from the beginning.
 
 ---
 

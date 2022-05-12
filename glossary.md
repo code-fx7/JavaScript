@@ -2,19 +2,34 @@
 
 # KISS = Keep it simple
 
+- Sloppy Mode, Strict Mode "use strict"
 - " " String
 - [ ] Array (Ein Hotel in dem wir in jedes Zimmer reingehen)
-- ( ) Funktion, Methode aufrufen
+- ( ) Funktion aufrufen, Methode aufrufen
 - { } Object, Scope
+- != nicht gleich
 - = Zuweisung (Deklaration), setzt eine Variable
 - == Vergleicht
 - === Vergleichen von value und type
 - && (and) alles muss übereinstimmen
 - || (or) eine Übereinstimmung reicht
-
 - ++ = Increment-Operator
 - % = gibt den Rest einer Operation aus
+
+- mit Arrow Function lässt sich kein this nutzen
+
+- Blue Print = Ist eine Vorlage (Kopie)
+- get =
 - console.log() = object Methode
+- constructor = 
+- global = außerhalb einer Function
+- Invoke = call
+- local = innerhalb einer Function
+- nested =
+- Object = 
+- return =
+- set =  
+- Scope {} = bereich in einer Methode
 
 ---
 
@@ -33,6 +48,18 @@
 - some = prüft ob mindestens ein Element gleich ist
 
 - every = prüft ob alle Elemente gleich sind
+
+---
+
+#### Function
+
+- Callback =
+
+- Closure = function innerhalb von einer function parameter und variablen sind abgesichert
+
+- IIFE = Immediately-Invoked Function Expression
+
+- SIAF = self-invoking anonymous function ()()
 
 ---
 
@@ -82,8 +109,6 @@
   }
 
 - some =
-
-- Scope {}
 
 - sort =
 

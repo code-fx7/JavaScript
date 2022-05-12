@@ -22,16 +22,16 @@
 })(40, 60, 1000, 10);
 
 // Op2
-((currentAge, retirementAge, monthlyWage, percentage)=> {
-    if (currentAge>= retirementAge) {
-        return "You are already in holidy";
+((currentAge, retirementAge, monthlyWage, percentage) => {
+  if (currentAge >= retirementAge) {
+    return "You are already in holidy";
   } else {
-      let monthlySavedMoney = (monthlyWage * percentage) /100;
-      let yearsToWork = retirementAge-currentAge;
-      let totalSave=12 * monthlySavedMoney * yearsToWork;
-      console.log(`${totalSave}`);
+    let monthlySavedMoney = (monthlyWage * percentage) / 100;
+    let yearsToWork = retirementAge - currentAge;
+    let totalSave = 12 * monthlySavedMoney * yearsToWork;
+    console.log(`${totalSave}`);
   }
-})(37, 67, 2000, 1)
+})(37, 67, 2000, 1);
 
 //----------
 
@@ -42,3 +42,22 @@
 // DE33nn54637 -> this is a wrong bank account
 // DE -> this is correct, I'll take your money :leichtes_lächeln:
 
+const bankContoCheck = (str) => {
+  let countrySym = str.substring(0, 2);
+  let accNumbers = str.substring(2);
+  let userAccLength = str.length;
+  if (countrySym != "DE") {
+    return "this is not a bank account";
+  }
+  if (userAccLength != 22) {
+    return "this is not a complete bank account please check";
+  }
+  if (isNaN(accNumbers)) {
+    return "this is a wrong bank account";
+  }
+  return "this is correct, I´ll take your money :)";
+};
+
+console.log("DE11223344556677889900");
+console.log();
+console.log();
