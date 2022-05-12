@@ -18,11 +18,15 @@
 
 - mit Arrow Function lässt sich kein this nutzen
 
+- acc (accumulator) = 
 - Blue Print = Ist eine Vorlage (Kopie)
 - get =
 - console.log() = object Methode
 - constructor = 
+- else (sonst) = 
 - global = außerhalb einer Function
+- if (wenn) =
+- if else (ansonsten) =
 - Invoke = call
 - local = innerhalb einer Function
 - nested =
@@ -30,6 +34,7 @@
 - return =
 - set =  
 - Scope {} = bereich in einer Methode
+- switch = 
 
 ---
 
