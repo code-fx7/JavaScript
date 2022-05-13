@@ -20,6 +20,7 @@
 
 - acc (accumulator) = 
 - Blue Print = Ist eine Vorlage (Kopie)
+- break = beendet etwas
 - get =
 - console.log() = object Methode
 - constructor = 
@@ -31,10 +32,12 @@
 - local = innerhalb einer Function
 - nested =
 - Object = 
-- return =
+- return = gibt ein Ergebniss aus
 - set =  
 - Scope {} = bereich in einer Methode
+- super = bezieht sich auf die Basisklasse
 - switch = 
+- throw =
 
 ---
 
