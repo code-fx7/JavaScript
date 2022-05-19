@@ -1,14 +1,14 @@
 {
   "name": "19-05",
   "version": "1.0.0",
-  "description": "",
+  "description": "# Weather API",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
     "deploy": "chmod +x src/index.js && sudo npm link"
   },
   "bin": {
-    "myapp": "src/index.js"
+    "weather": "src/index.js"
   },
   "keywords": [],
   "author": "",
