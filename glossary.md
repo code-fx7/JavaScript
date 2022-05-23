@@ -43,7 +43,7 @@
 
 #### Advance array methods
 
-- map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipolieren, benötigt ein Callback, gibt immer ein Array zurück
+- map() = (Methode) (Schleife), benötigt ein Array, (Macht eine Kopie vom Original Array), die Kopie lässt sich manipulieren, benötigt ein Callback, gibt immer ein Array zurück
 
 - filter = sucht innerhalb eines Array, gibt ein Array zurück, benötigt ein Callback
 
@@ -63,12 +63,13 @@
 
 - Callback =
 
-- Closure = function innerhalb von einer function parameter und variablen sind abgesichert
+- Closure = Funktion innerhalb von einer anderen Funktion. Parameter und Variablen sind abgesichert.
 
 - IIFE = Immediately-Invoked Function Expression
 
-- SIAF = self-invoking anonymous function ()()
+- SIAF = self-invoking anonymous function ()() Eine Funktion ohne Namen ruft sich selbst auf.
 
+- Wann darf man keine Arrow Function nutzen: wenn .this benutzt wird, constructor
 ---
 
 - accumulator (acc) Ist ein Container, bei Object , 0 (Der Wert der erhöt werden soll)
@@ -104,6 +105,8 @@
 - Object = Inhalt zwischen geschweiftern Klammern
 
 - of = für Array
+
+- Primitiv value = Boolean, String, num
 
 - Property =
   Ist für Object
