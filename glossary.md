@@ -18,25 +18,26 @@
 
 - mit Arrow Function lässt sich kein this nutzen
 
-- acc (accumulator) = 
+- acc (accumulator) =
 - Blue Print = Ist eine Vorlage (Kopie)
 - break = beendet etwas
 - get =
 - console.log() = object Methode
-- constructor = 
-- else (sonst) = 
+- constructor =
+- else (sonst) =
+- else if =
 - global = außerhalb einer Function
 - if (wenn) =
 - if else (ansonsten) =
 - Invoke = call
 - local = innerhalb einer Function
 - nested =
-- Object = 
+- Object =
 - return = gibt ein Ergebniss aus
-- set =  
+- set =
 - Scope {} = bereich in einer Methode
 - super = bezieht sich auf die Basisklasse
-- switch = 
+- switch =
 - throw =
 
 ---
@@ -70,6 +71,7 @@
 - SIAF = self-invoking anonymous function ()() Eine Funktion ohne Namen ruft sich selbst auf.
 
 - Wann darf man keine Arrow Function nutzen: wenn .this benutzt wird, constructor
+
 ---
 
 - accumulator (acc) Ist ein Container, bei Object , 0 (Der Wert der erhöt werden soll)
@@ -80,7 +82,11 @@
 
 - const = für meine konstante Variable
 
+- cors = Cross-origin resource sharing
+
 - element (ele) = Ist für Array, verhält sich wie arr[i]
+
+- fetch (holen) =
 
 - fill = nimmt ein Array und gibt es so zurück wie wir es verändert haben
 
@@ -108,16 +114,32 @@
 
 - Primitiv value = Boolean, String, num
 
+- promise (versprechen) =
+
+- promise.all = toleriert keine Fehler im Code, wartet bis alle api´s gefetchd sind
+
+- promise.allSettled = toleriert auch Fehler im Code
+
 - Property =
   Ist für Object
 
+- render =
+
 - reduce = Funktioniert nur mit Array, nimmt ein großes Array und gibt ein value zurück, Kann 2 Parameter hat immer (acc, cur)
 
+- rejected (Abgelehnt) =
+
+- resolved (Aufgelöst) =
+
 - return =
+
+- parse =
 
 - Schleife = for (let i = 0; i <=10; i++) {
   console.log(i);
   }
+
+- settled (erledigt) =
 
 - some =
 
@@ -127,4 +149,6 @@
 
 - this =
 
-- var = variablen weren lokal genutzt, variablen werden gehoistet
+- throw =
+
+- var = variablen werden lokal genutzt, variablen werden gehoistet
