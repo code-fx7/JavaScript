@@ -9,7 +9,7 @@
 - { } Object, Scope
 - != nicht gleich
 - = Zuweisung (Deklaration), setzt eine Variable
-- == Vergleicht
+- == (Gleichheitsoperator)Vergleicht
 - === Vergleichen von value und type
 - && (and) alles muss übereinstimmen
 - || (or) eine Übereinstimmung reicht
