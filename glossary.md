@@ -38,7 +38,7 @@
 - Scope {} = bereich in einer Methode
 - super = bezieht sich auf die Basisklasse
 - switch =
-- throw =
+- throw (Wurf)= Anweisungen nach throw werden dann nicht mehr ausgeführt
 
 ---
 
