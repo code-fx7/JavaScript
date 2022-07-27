@@ -50,7 +50,7 @@
 
 - find = sucht innerhalb eines Array, gibt nur den ersten richtigen Wert zurück
 
-- findIndex =
+- findIndex = gibt den Index des ersten Elements im Array zurück, das die bereitgestellte Testfunktion erfüllt.
 
 - forEach = Methode, Callback
 
