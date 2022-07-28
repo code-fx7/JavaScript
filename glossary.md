@@ -21,7 +21,7 @@
 - acc (accumulator) =
 - Blue Print = Ist eine Vorlage (Kopie)
 - break = beendet etwas
-- get =
+- get (bekommen, erhalten) =
 - console.log() = object Methode
 - constructor =
 - else (sonst) =
