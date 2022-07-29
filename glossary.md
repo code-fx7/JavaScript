@@ -31,7 +31,7 @@
 - if else (ansonsten) =
 - Invoke = call
 - local = innerhalb einer Function
-- nested =
+- nested (verschachtelt) =
 - Object =
 - return = gibt ein Ergebniss aus
 - set =
